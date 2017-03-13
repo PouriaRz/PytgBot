@@ -22,7 +22,7 @@ from pytgbot import Bot
 bot = Bot(API_KEY)
 
 # sending messages:
-bot.send_message(CHAT, "Example Text!")  # CHAT can be a @username or a id
+bot.send_message(CHAT, "Example Text!")  # CHAT can be a @username or a id number
 
 # getting events:
 for x in bot.get_updates():
